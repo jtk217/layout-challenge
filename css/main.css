@@ -1,4 +1,4 @@
-@import url(http://fonts.googleapis.com/css?family=Lato:300, 400);
+@import url(http://fonts.googleapis.com/css?family=Lato:300,400);
 @import url(http://fonts.googleapis.com/css?family=Raleway:300);
 
 body {
@@ -22,6 +22,7 @@ header {
 	border-bottom: 5px;
 	border-color: #EA4A00;
 	color: #FFF;
+    position: relative;
 }
 
 header p {
@@ -58,15 +59,19 @@ h2, h3 {
     margin-top: 20px;
     margin-right: 20px;
     margin-bottom: 20px;
+    padding-right: 0px;
+    padding-left: 0px;
 }
 
 .info {
 	padding: 1em;
+    margin: 0;
 }
 
 .menu {
 	padding: 1em;
 	background-color: rgba(207, 205, 140, 0.5);
+    margin: 0;
 }
 
 .menu dt {
@@ -126,6 +131,11 @@ nav a:focus {
 nav a:link,
 nav a:visited {
     color: #55E;
+}
+
+.col-md-6 {
+    padding-left: 0;
+    padding-right: 2em;
 }
 
 @media screen and (max-width: 992px) {
